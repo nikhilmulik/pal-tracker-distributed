@@ -5,7 +5,11 @@ applications:
   - route: backlog-pal-chiken-dinner.apps.pikes.pal.pivotal.io
   memory: 1G
   instances: 1
+<<<<<<< HEAD
   env:
     REGISTRATION_SERVER_ENDPOINT: https://registration-pal-chiken-dinner.apps.pikes.pal.pivotal.io
+=======
+>>>>>>> 50fb55f... Enable service discovery
   services:
   - tracker-backlog-database
+  - tracker-service-registry
